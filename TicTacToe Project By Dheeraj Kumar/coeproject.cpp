@@ -1,6 +1,6 @@
 #include<iostream>                                                                             //COE 2nd SEMESTER PROJECT
 #include<windows.h>                                                                      //TIC TAC TOE Game MADE BY DHEERAJ KUMAR 
-#include<cstdlib>                                                                        //Roll.NO.-2K20/A6/73
+#include<cstdlib>                                                                        
 #include<ctime>                                                                        
 using namespace std;
 
@@ -225,7 +225,7 @@ int main()
     cout << "|        Welcome To the Tic Tac Toe Game      |" << endl;
     cout << "===============================================" << endl;
     cout<<endl;
-    cout<<  " MADE BY DHEERAJ KUMAR (2K20/A6/73)  "<<endl;
+    cout<<  " MADE BY DHEERAJ KUMAR "<<endl;
     SetConsoleTextAttribute(h,11);
     gameboard();
     SetConsoleTextAttribute(h,14);
